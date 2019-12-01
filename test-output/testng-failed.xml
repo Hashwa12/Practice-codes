@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="5" name="Failed suite [Suite]" parallel="classes">
+  <test thread-count="5" verbose="5" name="Basic(failed)" parallel="classes">
+    <classes>
+      <class name="testNG.TestNG_Basics">
+        <methods>
+          <include name="skiptest"/>
+          <include name="ebayUserPassword" invocation-numbers="0"/>
+          <include name="SetUp"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- testNG.TestNG_Basics -->
+    </classes>
+  </test> <!-- Basic(failed) -->
+</suite> <!-- Failed suite [Suite] -->
