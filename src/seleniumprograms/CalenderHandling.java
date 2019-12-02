@@ -1,4 +1,4 @@
-package all_concepts;
+package seleniumprograms;
 
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
