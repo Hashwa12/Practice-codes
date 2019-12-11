@@ -13,12 +13,13 @@ public class Reverse {
 		String reverse = "";
 		String [] arr = str.split(" ");
 		
-//		for(int i=0;i<arr.length;i++)
-//		{
-//			StringBuilder sb = new StringBuilder(arr[i]);
-//			reverse+=sb.reverse()+" ";
-//		}
-		
+		for(int i=0;i<arr.length;i++)
+		{
+			StringBuilder sb = new StringBuilder(arr[i]);
+			reverse+=sb.reverse()+" ";
+		}
+		System.out.println(reverse+"\t");
+			
 		for(int i=0;i<=arr.length-1;i++)
 		{
 			reverse = "";
@@ -29,6 +30,14 @@ public class Reverse {
 			}
 			System.out.print(reverse+"\t");
 		}
+		
+		for (int k = arr.length-1; k >=0; k--) {
+			reverse="";
+			String temp = arr[k];
+			for (int l = temp.length()-1; l >=0; l--) {
+				reverse+=temp.charAt(l);
+			}	System.out.print(reverse+"\t");
+		}		
 	}
 
 }

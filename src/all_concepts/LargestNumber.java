@@ -38,7 +38,7 @@ public class LargestNumber {
 //			}
 //        }
         Arrays.sort(arr);
-	System.out.println(arr[arr.length]);
+	System.out.println(arr[arr.length-1]);
 //        System.out.println("Largest number is :"+ a+"Second is :" +b);
 	}
 

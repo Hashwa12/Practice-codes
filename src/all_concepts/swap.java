@@ -10,9 +10,13 @@ public class swap {
 		a=c.nextInt();
 		b=c.nextInt();
 		System.out.println("Values before swaping"+a+"   "+b);
-		temp=a;
-		a=b;
-		b=temp;
+//		temp=a;
+//		a=b;
+//		b=temp;
+		
+		a=a+b;
+		b=a-b;
+		a=a-b;
 		System.out.println("Values after swaping"+a+"   "+b);
 	}
 

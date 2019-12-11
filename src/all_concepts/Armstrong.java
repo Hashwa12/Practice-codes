@@ -4,26 +4,13 @@ public class Armstrong {
 
 	public static void main(String[] args) 
 	{
-//		int n=153,c=0,a,temp;
-//		temp=n;
-//		while(n>0)
-//		{
-//			a=n%10;
-//			n=n/10;
-//			c=c+(a*a*a);
-//		}
-//		if(temp==c)
-//		{
-//			System.out.println("Entered is armstrong");
-//		}
-//		else {
-//			System.out.println("Entered is not armstrong");
-//		}
 		
-		int number = 1634, originalNumber, remainder, result = 0, n = 0;
+		int number = 15, originalNumber, remainder, result = 0, n = 0;
         originalNumber = number;
         for (;originalNumber != 0; originalNumber /= 10)
-        	++n;
+        	{
+        		++n;
+        	}
         originalNumber = number;
         for (;originalNumber != 0; originalNumber /= 10)
         {
