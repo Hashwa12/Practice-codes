@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite" thread-count="5" verbose="10" parallel="classes">
+<listeners>
+<listener class-name="testNG.MyTransformer"/>
+
+</listeners>
   <test name="Basic" >
     <classes>
       <class name="testNG.TestNG_Basics"/>
@@ -13,4 +17,3 @@
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
-<!-- hashwanth -->

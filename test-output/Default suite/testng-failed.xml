@@ -6,9 +6,7 @@
       <class name="testNG.TestNG_Basics">
         <methods>
           <include name="skiptest"/>
-          <include name="ebayUserPassword" invocation-numbers="0 1"/>
-          <include name="SetUp"/>
-          <include name="teardown"/>
+          <include name="Fail"/>
         </methods>
       </class> <!-- testNG.TestNG_Basics -->
     </classes>
