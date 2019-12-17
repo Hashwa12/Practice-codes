@@ -1,17 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" verbose="10" name="Failed suite [Suite]" parallel="classes">
-  <listeners>
-    <listener class-name="testNG.MyTransformer"/>
-  </listeners>
-  <test thread-count="5" verbose="10" name="Basic(failed)" parallel="classes">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testNG.TestNG_Basics">
+      <class name="seleniumprograms.AllButtons">
         <methods>
-          <include name="skiptest"/>
-          <include name="Fail"/>
+          <include name="init"/>
+          <include name="test1"/>
         </methods>
-      </class> <!-- testNG.TestNG_Basics -->
+      </class> <!-- seleniumprograms.AllButtons -->
     </classes>
-  </test> <!-- Basic(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
