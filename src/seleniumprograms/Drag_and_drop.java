@@ -10,7 +10,7 @@ public class Drag_and_drop {
 
 	public static void main(String[] args) 
 	{
-		System.setProperty("webdriver.chrome.driver", "E:\\softwares\\hashwa\\Drivers\\chromedriver(2).exe");
+		System.setProperty("webdriver.chrome.driver", "E:\\softwares\\hashwa\\Drivers\\chromedriver.exe");
         WebDriver driver = new ChromeDriver();
         
         driver.get("https://jqueryui.com/droppable/");

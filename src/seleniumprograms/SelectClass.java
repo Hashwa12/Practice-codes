@@ -37,7 +37,9 @@ public class SelectClass {
 
 		WebElement ele = driver.findElement(By.xpath("//select[@id='select-demo']"));
 		Select sel = new Select(ele);
-		sel.selectByIndex(1);
+//		sel.selectByIndex(1);
+//		sel.selectByValue("Monday");
+		sel.selectByVisibleText("Fridays");
 //		driver.quit();
 	}
 

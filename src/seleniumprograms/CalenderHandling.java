@@ -4,17 +4,20 @@ import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 
 public class CalenderHandling {
 
 	public static void main(String[] args) 
 	{
-		System.setProperty("webdriver.chrome.driver", "E:\\softwares\\hashwa\\Drivers\\chromedriver(2).exe");
-		WebDriver driver = new ChromeDriver();
+		ChromeOptions opt = new ChromeOptions();
+		opt.addArguments("--disable-notifications");
+		System.setProperty("webdriver.chrome.driver", "E:\\softwares\\hashwa\\Drivers\\chromedriver.exe");
+		WebDriver driver = new ChromeDriver(opt);
 		
 		driver.get("https://www.cleartrip.com/flights");
 		
-		String Month_Year = "January 2020";
+		String Month_Year = "March 2021";
 		String date="5";
 		
 		String date1;
