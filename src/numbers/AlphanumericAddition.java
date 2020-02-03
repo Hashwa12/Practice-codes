@@ -32,7 +32,7 @@ public class AlphanumericAddition {
 			if(	Character.isDigit(ch[i]))
 			{
 //				System.out.println(ch[i]);
-				sum=sum+(Character.getNumericValue(ch[i]));
+				sum=sum+((int)ch[i]);//(Character.getNumericValue(ch[i]));
 //				System.out.println(sum);
 			}
 		}System.out.println("Sum of numbers is :"+sum);
