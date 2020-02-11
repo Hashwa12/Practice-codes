@@ -17,7 +17,8 @@ public class swap {
 		a=a+b;
 		b=a-b;
 		a=a-b;
-		System.out.println("Values after swaping"+a+"   "+b);
+//		System.out.println("Values after swaping"+a+"   "+b);
+		System.out.format("%d --- %d", a,b);
 	}
 
 }

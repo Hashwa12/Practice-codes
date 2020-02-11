@@ -29,7 +29,7 @@ public class CountCharacters {
 			else {
 				map.put(c, 1);
 			}
-		}			System.out.println(map.get("the"));
+		}			System.out.println(map);
 
 		
 	}
