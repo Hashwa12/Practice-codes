@@ -39,18 +39,28 @@ public class HashMapConcept {
 //		System.out.println(e1.age);
 
 //	**************************************************************************************************
-		String Customer_Credentials = getCredentialsMap().get("Customer");
-		System.out.println(Customer_Credentials.split(":")[0]);
-		System.out.println(Customer_Credentials.split(":")[1]);
-		
-	}
-	public static HashMap<String, String> getCredentialsMap() {
-		HashMap<String, String> usermap = new HashMap<String,String>();
-		usermap.put("Customer", "aravind:aravind@123");
-		usermap.put("admin", "bala:bala@123");
-		usermap.put("distributor", "chandran:chandran@123");
-		usermap.put("seller", "dhivya:dhivya@123");
-		usermap.put("delivery", "Ezhil:Ezhil@123");
-		return usermap;
+		/*
+		 * String Customer_Credentials = getCredentialsMap().get("Customer");
+		 * System.out.println(Customer_Credentials.split(":")[0]);
+		 * System.out.println(Customer_Credentials.split(":")[1]);
+		 * 
+		 * } public static HashMap<String, String> getCredentialsMap() { HashMap<String,
+		 * String> usermap = new HashMap<String,String>(); usermap.put("Customer",
+		 * "aravind:aravind@123"); usermap.put("admin", "bala:bala@123");
+		 * usermap.put("distributor", "chandran:chandran@123"); usermap.put("seller",
+		 * "dhivya:dhivya@123"); usermap.put("delivery", "Ezhil:Ezhil@123"); return
+		 * usermap;
+		 */
+		System.out.println("hiiiiiiiiiiiiiiiiiiiii");
+		HashMap<Integer,String> hm=new HashMap<Integer,String>(); 
+        hm.put(100,"Amit"); 
+        hm.put(104,"Amit");  // hash map allows duplicate values 
+        hm.put(101,"Vijay"); 
+        hm.put(102,"Rahul"); 
+        System.out.println("-----------Hash map-----------"); 
+        for (Map.Entry m:hm.entrySet()) { 
+            System.out.println(m.getKey()+" "+m.getValue()); 
+        } 	
+	
 	}
 }

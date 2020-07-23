@@ -4,7 +4,7 @@ public class NumPalindrome {
 
 	public static void main(String[] args) 
 	{
-		int temp=0,n = 1234,first,second,third,fourth;
+		int temp=0,n = 1234,first,fourth;
 		temp=n;
 		if(n>0)
 		{

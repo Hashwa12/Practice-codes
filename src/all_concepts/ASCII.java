@@ -1,7 +1,6 @@
 package all_concepts;
 
 import java.io.UnsupportedEncodingException;
-import java.util.Arrays;
 
 public class ASCII {
 

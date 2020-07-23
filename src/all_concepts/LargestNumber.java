@@ -2,14 +2,12 @@ package all_concepts;
 
 import java.util.Arrays;
 
-import com.sun.xml.bind.v2.runtime.unmarshaller.XsiNilLoader.Array;
-
 public class LargestNumber {
 
 	public static void main(String[] args) 
 	{
         int arr[] = { 14, 46, 47, 99, 86, 36, 89 };
-        int a;//=arr[0],b=arr[0],c=arr[0];
+//        int a;//=arr[0],b=arr[0],c=arr[0];
 //        for(int i=0;i<arr.length;i++)
 //        {
 //        	for(int j=i+1;j<arr.length;j++)

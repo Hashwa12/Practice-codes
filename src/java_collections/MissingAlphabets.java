@@ -12,7 +12,8 @@ public class MissingAlphabets {
 		str=str.replaceAll(" ", "");
 		
 		str=str.toLowerCase();
-		
+
+		System.out.println("asihdviasndvasndvasndvasndvias");
 		String arr[] = str.split("");
 				
 		String alp[]="abcdefghijklmnopqrstuvwxyz".split("");
