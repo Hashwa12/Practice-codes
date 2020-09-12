@@ -17,7 +17,7 @@ public class RobotClass {
 	static WebDriver driver;
 	public static void main(String[] args) throws AWTException, InterruptedException
 	{
-		System.setProperty("webdriver.chrome.driver", "E:\\softwares\\hashwa\\Drivers\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "E:\\softwares\\hashwa\\Drivers\\chromedriver_win32(2)\\chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.get("https:/google.com");
 		driver.manage().deleteAllCookies();
@@ -31,6 +31,8 @@ public class RobotClass {
 		Robot robo = new Robot();
 		robo.keyPress(KeyEvent.VK_CONTROL);
 		robo.keyPress(KeyEvent.VK_2);
+		robo.keyRelease(KeyEvent.VK_2);
+		robo.keyPress(KeyEvent.VK_W);
 	}
 
 }

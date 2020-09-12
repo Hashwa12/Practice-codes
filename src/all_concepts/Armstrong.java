@@ -2,7 +2,7 @@ package all_concepts;
 
 public class Armstrong {
 
-	public static void main(String[] args) 
+	public static void main(String... args) 
 	{
 		
 		int number = 15, originalNumber, remainder, result = 0, n = 0;
