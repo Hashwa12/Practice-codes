@@ -1,6 +1,7 @@
 package strings;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.HashSet;
 import java.util.List;
@@ -24,7 +25,13 @@ public class RemoveDuplicates {
 		Collections.sort(li);
 		System.out.println(li);
 		
-		Set<Integer> s = new HashSet<Integer>(li);
+		Integer []arr = new Integer[li.size()];
+				arr=li.toArray(arr);
+		for (int i = 0; i < arr.length; i++) {
+			System.out.println(arr[i]);	
+		}
+		
+		Set s = new HashSet<>(Arrays.asList(arr));
 		li.clear();
 		
 		li.addAll(s);

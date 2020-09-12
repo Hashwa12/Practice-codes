@@ -58,7 +58,14 @@ public class Pyramid {
 //			}System.out.println("");
 //		}
 		
-		
+int start=1;
+int height=10;
+for (int i = 0; i < height; i++) {
+	for (int j = 0; j <= i; j++) {
+		System.out.print(start+" ");
+		start++;
+	}System.out.println("");
+}
 		
 		
 		

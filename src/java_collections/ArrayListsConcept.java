@@ -1,7 +1,11 @@
 package java_collections;
 
+import java.awt.List;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Iterator;
+
+import com.beust.jcommander.internal.Lists;
 
 public class ArrayListsConcept {
 
@@ -43,6 +47,11 @@ public class ArrayListsConcept {
 		{
 			System.out.println(itr2.next());
 		}
+		
+		String xx = "Please help me";
+		String[] wo = xx.split(" ");
+		ArrayList<String> xow = new ArrayList<String>(Arrays.asList(wo));
+System.out.println(xow);
 	}
 
 }

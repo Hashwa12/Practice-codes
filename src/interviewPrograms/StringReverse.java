@@ -16,8 +16,8 @@ public class StringReverse {
 		System.out.println("Enter the string: ");
 		Scanner in = new Scanner(System.in);
 		String str = in.nextLine();
-		
-//		****************************Using String Buffer*******************************
+
+		//		****************************Using String Buffer*******************************
 		System.out.println("USING STRINGBUFFER");
 		String s1[] = str.split(" ");
 		StringBuilder SB = null;
@@ -28,8 +28,8 @@ public class StringReverse {
 			reverse+=SB.reverse()+" ";
 		}
 		System.out.println(reverse);
-	
-//		******************************Using Array and iterator*************************
+
+		//		******************************Using Array and iterator*************************
 		System.out.println("USING ARRAY AND LIST ITERATOR");
 		char []ch=str.toCharArray();
 		List<Character> li = new ArrayList<>();
@@ -37,9 +37,9 @@ public class StringReverse {
 		{
 			li.add(c);
 		}
-		
+
 		Collections.reverse(li);
-		
+
 		@SuppressWarnings("rawtypes")
 		ListIterator itr = li.listIterator();
 		while(itr.hasNext())
