@@ -6,7 +6,6 @@ public class LargestNumber {
 
 	public static void main(String[] args) 
 	{
-<<<<<<< HEAD
         int arr[] = { 14, 99, 47, 99, 86, 36, 89 };
         int a=arr[0],b=arr[0],c=arr[0];
         for(int i=0;i<arr.length;i++)
@@ -38,9 +37,8 @@ public class LargestNumber {
         }
 //        Arrays.sort(arr);
 //	System.out.println(arr[arr.length-1]);
-        System.out.println("Largest number is :"+ a+"Second is :" +b);
-=======
-        int arr[] = { 14, 46, 47, 99, 86, 36, 89 };
+//        System.out.println("Largest number is :"+ a+"Second is :" +b);
+//        int arr[] = { 14, 46, 47, 99, 86, 36, 89 };
 //        int a;//=arr[0],b=arr[0],c=arr[0];
 //        for(int i=0;i<arr.length;i++)
 //        {
@@ -69,10 +67,9 @@ public class LargestNumber {
 //        		}
 //			}
 //        }
-        Arrays.sort(arr);
-	System.out.println(arr[arr.length-1]);
+//        Arrays.sort(arr);
+//	System.out.println(arr[arr.length-1]);
 //        System.out.println("Largest number is :"+ a+"Second is :" +b);
->>>>>>> 188cb2c4f924dcaba0fd40f15e8b520e8566bd10
 	}
 
 }
